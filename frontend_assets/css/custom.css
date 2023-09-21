@@ -118,6 +118,9 @@ img{
 }
 
 @media only screen and (max-width: 500px){
+    .pdf-version>.category-headding-cover{
+        font-size: 2.5rem;
+    }
     .post-title-author-details h3{
         font-size: 1.5rem;
     }
