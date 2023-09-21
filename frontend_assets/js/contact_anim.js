@@ -1,0 +1,1 @@
+ScrollReveal().reveal('.contact-address',{delay:200,easing:'ease-out',interval:200,scale:1.2})
