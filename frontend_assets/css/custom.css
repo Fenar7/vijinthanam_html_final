@@ -7,23 +7,28 @@ mobile-menu-area{
     max-width: 100vw;
 }
 .sports-inner h3{
-    font-family: 'uroob';
+    font-family: 'Noto Serif Malayalam', serif;
 }
 
 .sports-inner-cover h3{
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
+
+.post-wrapper h3{
+    font-size: 1.5rem;
+}
+
 .hero-section h3{
-    font-family: 'uroob';
+    font-family: 'Noto Serif Malayalam', serif;
 }
 .post-title-author-details h3,.post-date,.post-title-author-details p{
-    font-family: 'Meera';
+    font-family: 'Noto Serif Malayalam', serif;
 }
 .post-date{
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 .post-title-author-details p{
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 
 /* custom font section end */
@@ -65,8 +70,8 @@ img{
 }
 
 .pdf-version>.category-headding-cover{
-    font-size: 3rem;
-    font-family: 'uroob';
+    font-size: 2rem;
+    font-family: 'Noto Serif Malayalam', serif;
     color: #f60d2b;
 }
 
@@ -105,7 +110,6 @@ img{
     color: #f60d2b;
 }
 
-
 .sports-inner img{
     transition: all 150ms ease-in-out;
     &:hover{
@@ -115,9 +119,9 @@ img{
 
 @media only screen and (max-width: 500px){
     .post-title-author-details h3{
-        font-size: 1.6rem;
+        font-size: 1.5rem;
     }
 }
 .post-title-author-details h3{
-    font-size: 1.9rem;
+    font-size: 1.7rem;
 }
