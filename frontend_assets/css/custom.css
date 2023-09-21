@@ -60,7 +60,7 @@ img{
 .pdf-version{
     padding: 2em;
     /* background-color: rgb(0, 0, 0); */
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .pdf-version img{
     transition: all 150ms ease-in-out;
@@ -86,7 +86,7 @@ img{
 }
 
 .sports-inner{
-    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     color: rgb(0, 0, 0);
     padding: 2em;
     border-radius: 10px;
