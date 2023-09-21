@@ -4,6 +4,8 @@
 
 .main-header2{
     display: flex;
+    justify-content: center;
+    gap: 20px;
     width: 90%;
     margin: 0px auto;
     padding-top: 15px;
@@ -73,8 +75,13 @@
     color: white;
 }
 
+.header-logo2 img{
+    width: 200px;
+}
+
 .social_icon2 {
     float: right;
+    margin: 0;
 }
 
 .social_icon_wrap2 a {
@@ -91,12 +98,14 @@
 
 .social_icon2{
     align-items: center;
-    margin: 0 auto;
+    margin: 0;
 }
 
 .navbar2{
     display: flex;
     margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     justify-content: center;
     display: flex;
     background-color: #e32028;
@@ -104,7 +113,7 @@
 
 .navbar2 ul{
     display: flex;
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     padding-top: 5px;
     padding-bottom: 5px;
     font-family: 'Poppins';
@@ -124,7 +133,7 @@
     color: black;
 }
 
-@media only screen and (max-width: 1062px){
+@media only screen and (max-width: 1103px){
     .main-header2{
         width: 100%;
     }
