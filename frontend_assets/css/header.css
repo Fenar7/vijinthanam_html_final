@@ -107,7 +107,7 @@
     font-size: 18px;
 }
 
-.navbar2{
+.navbar-final{
     display: flex;
     margin-top: 10px;
     padding-top: 10px;
@@ -117,7 +117,7 @@
     background-color: #e32028;
 }
 
-.navbar2 ul{
+.navbar-final ul{
     display: flex;
     font-size: 1.6rem;
     padding-top: 5px;
@@ -126,16 +126,16 @@
     font-weight: 500;
     gap: 20px;
 }
-.navbar2 ul li, .navbar2 ul li a{
+.navbar-final ul li, .navbar-final ul li a{
     list-style: none;
     text-decoration: none;
     color: white;
 }
 
-.navbar2 ul li a{
+.navbar-final ul li a{
     transition: all ease-out .2s;
 }
-.navbar2 ul li a:hover{
+.navbar-final ul li a:hover{
     color: black;
 }
 
@@ -179,7 +179,7 @@
     .header-container2{
         margin-top: 50px;
     }
-    .navbar2{
+    .navbar-final{
         display: none;
     }
     .live-card{
@@ -188,9 +188,29 @@
     .social_icon2{
         display: none;
     }
+    .center-ppp{
+        position: relative;
+        display: none;
+        background-color: white;
+        z-index: -10;
+    }
+    .nav2{
+        display: none;
+    }
 }
 .header-container2 {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.2); /* Horizontal offset: 0, Vertical offset: 4px, Blur radius: 4px */
+}
+.center-ppp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nav2{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
