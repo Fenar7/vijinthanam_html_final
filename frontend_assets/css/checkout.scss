@@ -1,0 +1,78 @@
+.form-container{
+    border: 1px solid black;
+    border-radius: 2rem;
+
+    .form{
+        input[type="text"]{
+            flex-shrink: 0;
+            border-radius: 0.625rem;
+            border: 1px solid #DEDEDE;
+            background-color: #efdfdf;
+            outline: none;
+            height: 2.3em;
+            padding-left: 10px;
+        }
+        textarea{
+            flex-shrink: 0;
+            border-radius: 0.625rem;
+            border: 1px solid #DEDEDE;
+            background-color: #efdfdf;
+            outline: none;
+            padding-left: 10px;
+        }
+
+        select{
+            flex-shrink: 0;
+            border-radius: 0.625rem;
+            border: 1px solid #DEDEDE;
+            background-color: #efdfdf;
+            outline: none;
+            height: 2.3em;
+        }
+
+        .delivery-form{
+            background-color: w;
+            
+            label{
+                font-size: 1.5rem;
+                color: black;
+                font-weight: 600;
+                font-family: 'Poppins';
+                margin-bottom: 2px;
+            }
+        }
+        .product-details{
+            border: 1px solid #DEDEDE;
+            border-radius: 1rem;
+        }
+
+        
+        input[type="radio"]{
+            flex-shrink: 0;
+            border-radius: 0.625rem;
+            background-color: #efdfdf;
+        }
+
+        input[type="radio"]:checked{
+            background-color: black;
+        }
+    }
+}
+
+.price-row{
+    h6,h4{
+        margin: 0;
+    }
+}
+
+.checkout-btn{
+    border: none;
+    border-radius: 3rem;
+    background-color: #f60d2b;
+    color: #fff;
+    transition: all .3s ease-out;
+}
+.checkout-btn:hover{
+    background-color: #efdfdf;
+    color: #f60d2b;
+}
