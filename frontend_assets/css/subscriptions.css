@@ -7,6 +7,15 @@ body {
   border-radius: 5rem;
   flex-direction: column;
 }
+@media (max-width: 575px) {
+  .form-container {
+    width: 90vw;
+    padding: 0 1em;
+  }
+}
+.form-container button {
+  border: none;
+}
 .form-container .select-sub-card {
   font-size: 1.5rem;
   color: white;
@@ -20,6 +29,11 @@ body {
 }
 .form-container .sub-form .radio-row {
   width: 30%;
+}
+@media (max-width: 575px) {
+  .form-container .sub-form .radio-row {
+    width: 100%;
+  }
 }
 .form-container .sub-form .form-group {
   gap: 1em;
@@ -56,4 +70,13 @@ body {
 }
 .form-container .sub-form .sub-plans .plan:hover h5 {
   color: black;
+}
+
+.sports-inner .post-wrapper .post-thumb img {
+  height: 30rem;
+}
+@media (max-width: 575px) {
+  .sports-inner .post-wrapper .post-thumb img {
+    height: 50rem;
+  }
 }/*# sourceMappingURL=subscriptions.css.map */

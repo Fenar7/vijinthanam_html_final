@@ -6,6 +6,14 @@ body{
     background-color: #efdfdf;
     border-radius: 5rem;
     flex-direction: column;
+    @media (max-width: 575px) {
+        width: 90vw;
+        padding: 0 1em;
+  }
+    
+    button{
+        border: none;
+    }
 
     .select-sub-card{
         font-size: 1.5rem;
@@ -23,6 +31,10 @@ body{
 
         .radio-row{
             width: 30%;
+            @media (max-width: 575px) {
+                width: 100%;
+          }
+
         }
         .form-group{
             gap: 1em;
@@ -66,4 +78,16 @@ body{
         }
     }
 }
+.sports-inner{
+    .post-wrapper{
+        .post-thumb{
+            img{
+                height: 30rem;
 
+                @media (max-width: 575px) {
+                        height: 50rem;
+                  }
+            }
+        }
+    }
+}
