@@ -1,0 +1,59 @@
+body {
+  background-color: white;
+}
+
+.form-container {
+  background-color: #efdfdf;
+  border-radius: 5rem;
+  flex-direction: column;
+}
+.form-container .select-sub-card {
+  font-size: 1.5rem;
+  color: white;
+  background-color: #f60d2b;
+  border-radius: 5rem;
+  cursor: pointer;
+  transition: all 0.3s ease-out;
+}
+.form-container .select-sub-card:hover {
+  transform: scale(1.1);
+}
+.form-container .sub-form .radio-row {
+  width: 30%;
+}
+.form-container .sub-form .form-group {
+  gap: 1em;
+}
+.form-container .sub-form .form-group .form-check {
+  display: flex;
+  gap: 0.2em;
+  margin-right: 1em;
+  align-items: center;
+}
+.form-container .sub-form .form-group .form-check label {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+.form-container .sub-form .sub-plans {
+  width: 100%;
+}
+.form-container .sub-form .sub-plans .plan {
+  background-color: #f60d2b;
+  padding: 2em;
+  margin-bottom: 2rem;
+  border-radius: 1em;
+  transition: all 0.3s ease-out;
+}
+.form-container .sub-form .sub-plans .plan h5 {
+  margin: 0;
+  color: #fff;
+}
+.form-container .sub-form .sub-plans .plan:hover {
+  background-color: #efdfdf;
+  border: 1px solid #f60d2b;
+  cursor: pointer;
+}
+.form-container .sub-form .sub-plans .plan:hover h5 {
+  color: black;
+}/*# sourceMappingURL=subscriptions.css.map */
