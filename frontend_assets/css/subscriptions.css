@@ -71,6 +71,13 @@ body {
 .form-container .sub-form .sub-plans .plan:hover h5 {
   color: black;
 }
+.form-container .sub-form .sub-plans .plan.active {
+  background-color: #efdfdf;
+  border: 1px solid #f60d2b;
+}
+.form-container .sub-form .sub-plans .plan.active h5 {
+  color: black;
+}
 
 .sports-inner .post-wrapper .post-thumb img {
   height: 30rem;

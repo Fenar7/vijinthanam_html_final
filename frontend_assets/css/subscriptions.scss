@@ -74,6 +74,13 @@ body{
                 }
                 cursor: pointer;
             }
+            .plan.active{
+                background-color: #efdfdf;
+                border: 1px solid #f60d2b;
+                h5{
+                    color: black;
+                }
+            }
         }
     }
 }
@@ -90,5 +97,4 @@ body{
         }
     }
 }
-
 
