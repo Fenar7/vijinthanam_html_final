@@ -1,3 +1,7 @@
+body{
+    font-family: 'Poppins';
+}
+
 .form-container{
     border: 1px solid black;
     border-radius: 2rem;
@@ -75,4 +79,31 @@
 .checkout-btn:hover{
     background-color: #efdfdf;
     color: #f60d2b;
+}
+
+.product-details{
+    h3,h6{
+        margin: 0;
+    }
+    .product-img{
+        img{
+            width: 100%;
+        }
+    }
+
+    .remove-btn-row{
+        button{
+            border: none;
+            border-radius: 5rem;
+            font-size: 1.5rem;
+            color: #fff;
+            background-color: #f60d2b;
+            transition: all .3s ease-out;
+        }
+
+        button:hover{
+            background-color: #efdfdf;
+            color: #f60d2b;
+        }
+    }
 }
