@@ -94,6 +94,7 @@ img{
 
 .sports-inner h3 a{
     color: #000000;
+    line-height: 2rem;
     font-weight: bold;
 }
 .sports-inner h3 a:hover{
